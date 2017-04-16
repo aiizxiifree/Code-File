@@ -31,7 +31,6 @@ void callback(char* topic, byte* payload, unsigned int length) {
   //Serial.print("Message arrived [");
   //Serial.print(topicStr);
   //Serial.print("] : ");
-  Serial.print("Say : ");
   Serial.println(payloadStr);
   function(payloadStr);
   
